@@ -1,0 +1,25 @@
+
+--------------------------------------creat env---------------------------
+python -m venv myenv
+myenv\Scripts\activate
+    or 
+conda create -n myenv2 python=3.9
+conda activate myenv
+conda install tensorflow
+
+
+--------------------------------------Remove env---------------------------
+conda deactivate
+conda remove --name myenv2 --all
+
+
+
+
+
+pip uninstall tensorflow
+pip install tensorflow==2.10.0
+pip install tensorflow-estimator
+pip install keras
+
+
+
